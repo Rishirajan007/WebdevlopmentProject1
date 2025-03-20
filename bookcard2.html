@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style type="text/css">
+        
+        
+        img{
+          border: 2px solid black;
+          box-shadow: 5px 5px 5px rgb(53, 1, 1);
+        }
+        body {
+            animation: backgroundChange 10s infinite alternate;
+            color: rgb(1, 6, 35);
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        @keyframes backgroundChange {
+            0% { background: linear-gradient(to right, #06e7f7, #8b0404); }
+            50% { background: linear-gradient(to right, #08a71a, #80acf8); }
+            100% { background: linear-gradient(to right, #19c35a, #ee0979); }
+        }
+
+        form{
+            border: 2px solid rgb(23, 3, 3);
+            box-shadow: 5px 5px 5px rgb(53, 1, 1);
+            width: 300px;
+            height: 200px;
+            padding: 20px;
+            margin-left: 0px;
+            margin-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        header {
+            background: #333;
+            padding: 15px 0;
+        }
+        main{
+         border: 2px solid rgba(242, 149, 213, 0.518);
+         box-shadow: 5px 5px 5px rgb(53, 1, 1);
+         border-radius: 50px;
+         background-color: #ffabebe0;
+          width: 50%;
+          margin-left: 25%; 
+          justify-items: center;
+        }
+        footer {
+            background: #333;
+            padding: 15px;
+            margin-top: 30px;
+            color: white;
+        }
+
+    </style>
+</head>
+<body class="container-fluid">
+
+  <header class="text-center text-white py-3">
+    <h1>Welcome to Book Showcase</h1>
+</header>
+              <br><br>
+<main>
+
+  <h1>Book 2: Revolutionary Inventions</h1>
+  <img src="files/image/book2.jpg" alt="" height="350px" width="250px">
+  <br><br>
+
+   <details>
+    <summary><b>Genere</b></summary>
+    <li>Technology</li>
+    <li>Education</li>
+    </details>
+
+   <details>
+  <summary><b>Index Page</b></summary>
+  <li>Introduction</li>
+  <li>Chapter 1: Overview</li>
+  <li>Chapter 2: Advanved Concepts</li>
+  </details>
+  
+  <details>
+  <summary><b>Authors</b></summary>
+  Jane Doe,John Smith
+  </details>
+  
+  <details>
+  <summary><b>Overview</b></summary>
+  This book provides details insights into <br> technology and communication skills for professionals and studentd.
+  </details>
+  
+  <details>
+  <summary><b>Competitive Exam Relevence</b></summary>
+  Highly recommended for IT and communication-related government Exams.
+  </details>
+  
+  <details>
+  <summary><b>Purchase Links</b></summary>
+  <li><a href="www.amazon.com">Amazon</a></li>
+  <li><a href="www.flipkart.com">Flipkart</a></li>
+  </details>
+  
+  <h3>Feedback Form</h3>
+  <form action="" class="" style="border: 2px solid rgb(196, 255, 1); padding: 20px; margin-bottom: 50px; display: flex; flex-direction: column;
+  justify-content: center;">
+  <label for="">Name</label>
+  <input type="text" class="form-control">
+  
+  <label for="">Feedback</label>
+  <textarea name="" id="" cols="10" rows="" class="form-control"></textarea>
+  <button class="btn btn-primary">Submit</button>
+  </form>
+</main>
+    
+<footer class="text-center  py-3">
+  <p>© 2025 Book Showcase | All rights reserved</p>
+</footer>
+
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
